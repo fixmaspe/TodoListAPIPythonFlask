@@ -1,0 +1,26 @@
+
+# configuration and readme
+!.gitignore
+!.gitpod.yml
+.theia
+.vscode
+!.gitpod.Dockerfile
+!learn.json
+!README.md
+
+# learn exercises
+!/.learn
+/.learn/**
+!/.learn/bc.json
+!/.learn/.bc.json
+!/.learn/exercises
+!/.learn/exercises/**
+!/.learn/assets
+!/.learn/assets/**
+
+# python garbage
+*.pyc
+.venv
+conftest.py
+__pycache__/
+.pytest_cache/
